@@ -1,1 +1,1 @@
-My progres as a SE student in ALX 
+'pwd'is a script that prints the absolute path name of the current working directory 
