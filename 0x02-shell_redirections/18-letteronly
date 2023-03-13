@@ -1,2 +1,2 @@
 #!/bin/bash
-tr [[alphabet]] /etc/ssh/sshd_config
+tr [[:alphabet:]] /etc/ssh/sshd_config
