@@ -1,2 +1,2 @@
 #!/bin/bash
-find -n 3 iacta
+head -n 3 iacta | tail -2
