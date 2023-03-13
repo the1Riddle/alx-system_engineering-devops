@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -n 3 iacta
+find -n 3 iacta
