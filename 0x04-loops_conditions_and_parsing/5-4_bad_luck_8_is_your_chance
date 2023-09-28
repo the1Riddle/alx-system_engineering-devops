@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# a nested loop
+x=1
+while [ $x -lt 11 ]
+do
+	if [ $x -eq 4 ]
+	then
+		echo "bad luck";
+	elif [ $x -eq 8 ]
+	then
+		echo "good luck";
+	else
+		echo "Best School";
+	fi
+	((x++));
+done
