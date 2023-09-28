@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# prints best school and hi
+
+x=0
+while [ $x -lt 10 ]
+do
+	if [ $x -eq 9 ]
+	then
+		echo -e "Hi\nBest School";
+	else
+		echo "Best School";
+	fi
+	((x++));
+done
