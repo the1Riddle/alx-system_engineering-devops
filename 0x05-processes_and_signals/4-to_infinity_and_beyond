@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# a bash script that displays indefinately
+
+flag=0
+while [ $flag -eq 0 ]
+do
+        echo "To infinity and beyond"
+	sleep 2
+
+done
