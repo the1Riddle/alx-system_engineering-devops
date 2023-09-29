@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Find process and kill
+
+pgrep -f 4-to_infinity_and_beyond | xargs kill
