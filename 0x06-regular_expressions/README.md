@@ -9,6 +9,7 @@ In this project i will build my own regular expression using Oniguruma, a regula
 <br>
 Because the focus of this exercise is to play with regular expressions (regex), here is the Ruby code that I will use, meaning the code in between the //:
 
+
 	sylvain@ubuntu$ cat example.rb
 	#!/usr/bin/env ruby
 	puts ARGV[0].scan(/127.0.0.[0-9]/).join
