@@ -1,7 +1,7 @@
 # Execute a command
 
-exec { 'pkill':
-  command => 'pkill -f killmenow',
-  path    => 'usr/bin',
-  returns => [0, 1],
+exec { 'killmenow':
+  command  => '/usr/bin/pkill killmenow',
+  provider => 'shell',
+  returns  => [0, 1],
 }
