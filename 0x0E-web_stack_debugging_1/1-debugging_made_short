@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# my short version of task 0, making it short N sweet
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+pkill -1 nginx
