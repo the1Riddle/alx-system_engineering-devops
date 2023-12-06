@@ -10,23 +10,23 @@
 
 1. Server Logs:
 
-      	> Check server logs for errors and warnings.<br>
-       	> Analyze logs to identify patterns or specific issues.
+	> Check server logs for errors and warnings.<br>
+ 	> Analyze logs to identify patterns or specific issues.
 
 2. Database Debugging:
 
-       	> Ensure database connections are established correctly.<br>
+	> Ensure database connections are established correctly.<br>
        	> Check database logs for errors.<br>
        	> Verify that database queries are returning the expected results.
 
 3. API Testing:
 
-       	> Test API endpoints using tools like Postman or cURL.<br>
+	> Test API endpoints using tools like Postman or cURL.<br>
        	> Inspect API responses for errors and unexpected behavior.
 
 4. Code Profiling:
 
-       	> Use profiling tools to identify performance bottlenecks in your server-side code.<br>
+	> Use profiling tools to identify performance bottlenecks in your server-side code.<br>
        	> Profile database queries and optimize slow-performing queries.
 
 ### <p align="center">Infrastructure Debugging:</p>
