@@ -8,37 +8,45 @@
 
 ### <p align="center">Back-End Debugging:</p>
 
-	1. Server Logs:
-        	> Check server logs for errors and warnings.
-        	> Analyze logs to identify patterns or specific issues.
+1. Server Logs:
 
-	2. Database Debugging:
-        	> Ensure database connections are established correctly.
-        	> Check database logs for errors.
-        	> Verify that database queries are returning the expected results.
+      	> Check server logs for errors and warnings.<br>
+       	> Analyze logs to identify patterns or specific issues.
 
-	3. API Testing:
-        	> Test API endpoints using tools like Postman or cURL.
-        	> Inspect API responses for errors and unexpected behavior.
+2. Database Debugging:
 
-	4. Code Profiling:
-        	> Use profiling tools to identify performance bottlenecks in your server-side code.
-        	> Profile database queries and optimize slow-performing queries.
+       	> Ensure database connections are established correctly.<br>
+       	> Check database logs for errors.<br>
+       	> Verify that database queries are returning the expected results.
+
+3. API Testing:
+
+       	> Test API endpoints using tools like Postman or cURL.<br>
+       	> Inspect API responses for errors and unexpected behavior.
+
+4. Code Profiling:
+
+       	> Use profiling tools to identify performance bottlenecks in your server-side code.<br>
+       	> Profile database queries and optimize slow-performing queries.
 
 ### <p align="center">Infrastructure Debugging:</p>
 
-	1. Server Configuration:
-		> Verify server configurations for web servers (e.g., Apache, Nginx).
-		> Check for any misconfigurations that may lead to issues.
+1. Server Configuration:
 
-	2. Load Balancing:
-		> If applicable, check load balancing configurations.
-		> Ensure that requests are distributed evenly among server instances.
+	> Verify server configurations for web servers (e.g., Apache, Nginx).<br>
+	> Check for any misconfigurations that may lead to issues.
 
-	3. Firewall and Security:
-		> Check firewall settings for any restrictions.
-		> Verify that security configurations are not blocking legitimate requests.
+2. Load Balancing:
 
-	4. Resource Monitoring:
-		> Monitor server resources (CPU, memory, disk space) to identify resource-related issues.
-		> Use tools like top or server monitoring services.
+	> If applicable, check load balancing configurations.<br>
+	> Ensure that requests are distributed evenly among server instances.
+
+3. Firewall and Security:
+
+	> Check firewall settings for any restrictions.<br>
+	> Verify that security configurations are not blocking legitimate requests.
+
+4. Resource Monitoring:
+
+	> Monitor server resources (CPU, memory, disk space) to identify resource-related issues.<br>
+	> Use tools like top or server monitoring services.
