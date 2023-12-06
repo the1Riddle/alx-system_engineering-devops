@@ -2,7 +2,9 @@
 # Installs Nginx with the following configurations:
 apt-get update
 apt-get install -y nginx
+sudo ufw app list
+sudo ufw allow 'Nginx HTTP'
 
 echo "Hello World!" | sudo tee /var/www/html/index.html
 sudo nginx -t
-sudo service nginx start
+sudo service restart nginx
