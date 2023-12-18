@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 # Script that installs Nginx server and redirects /redirect_me
 
-sudo apt update
-sudo apt install -y nginx
+# Check if Nginx is already installed
+if ! command -v nginx &> /dev/null; then
+	sudo apt-get update
+	sudo apt-get install -y nginx
+fi
 sudo ufw allow 'Nginx HTTP'
 echo "Hello World!" | sudo tee /var/www/html/index.html
 
@@ -14,9 +17,8 @@ echo "server {
         index index.html;
 
         location /redirect_me {
-                return 301 https://github.com/the1Riddle
+                return 301 https://github.com/the1Riddle;
         }
 }" > default
 
-sudo mv -f default /etc/nginx/sites-available/default
 sudo service nginx restart
