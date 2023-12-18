@@ -14,7 +14,7 @@ echo "server {
         root /var/www/html;
         index index.html;
         location /redirect_me {
-                return 301 https://github.com/the1Riddle
+                return 301 https://github.com/the1Riddle;
         }
 
         error_page 404 /404.html;
