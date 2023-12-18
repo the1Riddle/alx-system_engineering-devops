@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# configure web-02 to be identical to web-01
+
+sudo apt-get -y update
+sudo apt install -y nginx
+sudo ufw allow 'Nginx HTTP'
+echo "Hello World" | sudo tee /var/www/html/index.html
+echo "Ceci n'est pas une page" > 404.html
+sudo mv 404.html /var/www/html
+echo "server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+        add_header X-Served-By $HOSTNAME;
+        root /var/www/html;
+        index index.html;
+        location /redirect_me {
+                return 301 https://github.com/the1Riddle
+        }
+
+        error_page 404 /404.html;
+        location = /404.html{
+        internal;
+        }
+}" > default
+
+sudo mv -f default /etc/nginx/sites-available/default
+sudo service nginx restart
