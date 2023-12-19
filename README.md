@@ -21,11 +21,11 @@ My progres as a SE student in ALX
 | [0x0E. Web Stack Debugging #1 ](./0x0E-web_stack_debugging_1) | Debugging NGINX servers with faulty ports |
 | [0x0F. Load Balancer](./0x0F-load_balancer) | Load balancing on HAProxy servers |
 | [0x10. HTTPS SSL](./0x10-https_ssl) | Configuring HTTPS with Let's Encrypt and certbot |
-<!--| [0x11. What_happens_when_you_type \.\.\.](./0x11-what_happens_when_your_type_holbertonschool_com_in_your_browser_and_press_enter) | A blog and diagram about how the internet works |-->
+| [0x11. What_happens_when_you_type \.\.\.](./0x11-what_happens_when_your_type_holbertonschool_com_in_your_browser_and_press_enter) | A blog and diagram about how the internet works |
 | [0x12. Web stack debugging #2](./0x12-web_stack_debugging_2) | Debugging and running software as another user |
 | [0x13. Firewall](./0x13-firewall) | Setting up UFW to block/allow incoming traffic |
-<!--| [0x14. Mysql](./0x14-mysql) | Implementing Primary-Replica infrastructure in MySQL |
-| [0x15. API](./0x15-api) | Python scripts to export data to CSV and JSON |
+| [0x14. Mysql](./0x14-mysql) | Implementing Primary-Replica infrastructure in MySQL |
+<!--| [0x15. API](./0x15-api) | Python scripts to export data to CSV and JSON |
 | [0x16. Api Advanced](./0x16-api_advanced)| Interacing with Reddit's API to scrape data |
 | [0x17. Web Stack Debugging #3](./0x17-web_stack_debugging_3)| Debugging with strace |
 | [0x18. Webstack Monitoring](./0x18-webstack_monitoring)| Monitoring system metrics with Datadog |
