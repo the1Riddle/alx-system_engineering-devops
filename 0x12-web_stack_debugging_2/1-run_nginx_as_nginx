@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# configuring a container to run nginx under nginx user on port 8080
+# without using apt-get remove
+chown nginx:nginx /etc/nginx/nginx.conf
+chown nginx:nginx /etc/nginx/sites-available/default
+chmod u+rwx /etc/nginx/nginx.conf
+sed -i "s/#user www-data/user nginx/" /etc/nginx/nginx.conf
+sed -i "s/80/8080/" /etc/nginx/sites-available/default
+pkill apache2
+su nginx service nginx restart
