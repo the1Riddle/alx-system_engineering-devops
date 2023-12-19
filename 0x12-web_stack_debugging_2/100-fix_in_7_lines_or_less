@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# making task 1-run_nginx_as_nginx 7 lines long
+sed -i "s/80 /8080 /g" /etc/nginx/sites-available/default
+sed -i "s/#user www-data/user nginx/g" /etc/nginx/nginx.conf
+chmod 755 /etc/nginx/nginx.conf
+pkill -9 apache
+su nginx -c "service nginx restart"
