@@ -2,6 +2,8 @@
 
 MySQL is a widely-used RDBMS known for its scalability, cross-platform compatibility, and robust features. As a key component of the LAMP stack, MySQL facilitates the efficient storage and retrieval of data through structured tables, supporting SQL for data manipulation.
 <br>
+## ![introduction to SQL](https://github.com/the1Riddle/alx-higher_level_programming/assets/125451537/af51da70-efc1-4e2d-9dd4-526cffcc2e65)
+
 MySQL is a popular choice for web development anging from small projects to large-scale enterprise applications and used in this project because:
       1. It has a strong focus on security.
       2. Ease of use.
