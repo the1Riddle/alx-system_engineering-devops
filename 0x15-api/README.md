@@ -1,6 +1,6 @@
 # API (Application Programming Interface)
-
-APIs are a set of rules that allows one software application to interact with another. APIs define the methods and data formats that applications can use to request and exchange information. They play a crucial role in enabling different software systems to communicate and work together.
+> [!NOTE]<br>
+> APIs are a set of rules that allows one software application to interact with another. APIs define the methods and data formats that applications can use to request and exchange information. They play a crucial role in enabling different software systems to communicate and work together.
 
 ![download](https://media.geeksforgeeks.org/wp-content/uploads/20230216170349/What-is-an-API.png)
 
