@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """ This module gathers data from an API """
-
 import csv
 import json
 import requests
