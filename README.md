@@ -25,13 +25,13 @@ My progres as a SE student in ALX
 | [0x12. Web stack debugging #2](./0x12-web_stack_debugging_2) | Debugging and running software as another user |
 | [0x13. Firewall](./0x13-firewall) | Setting up UFW to block/allow incoming traffic |
 | [0x14. Mysql](./0x14-mysql) | Implementing Primary-Replica infrastructure in MySQL |
-<!--| [0x15. API](./0x15-api) | Python scripts to export data to CSV and JSON |
+| [0x15. API](./0x15-api) | Python scripts to export data to CSV and JSON |
 | [0x16. Api Advanced](./0x16-api_advanced)| Interacing with Reddit's API to scrape data |
 | [0x17. Web Stack Debugging #3](./0x17-web_stack_debugging_3)| Debugging with strace |
 | [0x18. Webstack Monitoring](./0x18-webstack_monitoring)| Monitoring system metrics with Datadog |
 | [0x19. Postmortem](./0x19-postmortem)| How to write a Postmortem |
 | [0x1A. Application Server](./0x1A-application_server) | Serving Flask apps with Gunicorn and NGINX |
-| [0x1B. Web Stack Debugging #4](./0x1B-web_stack_debugging_4) | Benchmarking with ApacheBench |-->
+| [0x1B. Web Stack Debugging #4](./0x1B-web_stack_debugging_4) | Benchmarking with ApacheBench |
 
 ## Author :copyright:
 
